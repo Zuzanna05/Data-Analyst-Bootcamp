@@ -52,3 +52,33 @@ Utworzyłam prostą tabelę 'sprzedaz' zawierającą dane o produktach, cenach i
 Instrukcje warunkowe pozwalają podejmować decyzje w kodzie na podstawie danych.
 W SQL 'WHERE' pełni podobną rolę - pozwala wybrać tylko te rekordy, które spełniają określone warunki.
 Coraz lepiej widzę, jak Python i SQL mogą być wykorzystywane razem w analizie danych.
+
+
+## Dzień 3 - SQL: Sortowanie i funkcje agregujące
+Dzisiaj kontynuowałam pracę z SQL i tabelą 'sprzedaz'.
+
+### SQL
+Dzisiaj przećwiczyłam:
+- sortowanie wyników za pomocą 'ORDER BY'
+- sortowanie rosnące 'ASC' i malejące 'DESC'
+- ograniczanie liczby wyników za pomocą 'LIMIT'
+- liczenie rekordów za pomocą 'COUNT()'
+- sumowanie wartości za pomocą 'SUM()'
+- obliczanie średniej za pomocą 'AVG()'
+- łączenie 'WHERE', 'ORDER BY' i 'LIMIT' w jednym zapytaniu
+
+Ćwiczenia obejmowały m.in.:
+- sortowanie produktów według ceny
+- wyszukiwanie produktów z największą liczbą sprzedanych sztuk
+- liczenie produktów spełniających określony warunek
+- obliczanie łącznej liczby sprzedanych sztuk
+- obliczanie średniej ceny produktów
+- wyszukiwanie dwóch najtańszych produktów spełniających określony warunek
+
+### Co potrafię zrobić samodzielnie?
+Potrafię filtrować i sortować dane oraz ograniczać liczbę zwracanych wyników. Potrafię również wykonywać podstawowe obliczenia na danych przy użyciu funkcji agregujących 'COUNT()', 'SUM()' i 'AVG()'.
+Samodzielnie połączyłam 'WHERE', 'ORDER BY', oraz 'LIMIT', aby znaleźć dwa najtańsze produkty kosztujące mniej niż 1000 zł.
+
+### Najważniejsze wnioski
+Zaczynam zauważać, że nawet za pomocą stosunkowo prostych zapytań SQL można odpowiadać na konkretne pytania dotyczące danych. Szczególnie przydatne wydają mi się funkcje agregujące, ponieważ pozwalają szybko uzyskać podstawowe informacje, takie jak liczba rekordów, suma czy średnia.
+Coraz swobodniej czuję się również ze składnią zapytań SQL i kolejnością 'SELECT', 'FROM', 'WHERE', 'ORDER BY' i 'LIMIT'.
