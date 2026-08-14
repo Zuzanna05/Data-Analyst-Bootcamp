@@ -82,3 +82,8 @@ Samodzielnie połączyłam 'WHERE', 'ORDER BY', oraz 'LIMIT', aby znaleźć dwa 
 ### Najważniejsze wnioski
 Zaczynam zauważać, że nawet za pomocą stosunkowo prostych zapytań SQL można odpowiadać na konkretne pytania dotyczące danych. Szczególnie przydatne wydają mi się funkcje agregujące, ponieważ pozwalają szybko uzyskać podstawowe informacje, takie jak liczba rekordów, suma czy średnia.
 Coraz swobodniej czuję się również ze składnią zapytań SQL i kolejnością 'SELECT', 'FROM', 'WHERE', 'ORDER BY' i 'LIMIT'.
+
+
+## Dzień 4 - Dokumentacja repozytorium
+Dzisiaj uporządkowałam repozytorium i utworzyłam plik README.md opisujący mój Data Analyst Bootcamp.
+Nie realizowałam nowego materiału. Celem dzisiejszego dnia było utrzymanie regularności nauki i dalsze rozwijanie dokumentacji projektu.

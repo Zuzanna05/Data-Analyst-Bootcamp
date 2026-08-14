@@ -1,0 +1,15 @@
+# Data Analyst Bootcamp
+Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w pracy Data Analyst.
+
+## Technologie
+- Python
+- SQL
+- MySQL
+- Git i GitHub
+- PowerBI
+
+## Postęp
+- Dzień 1 - Podstawy Pythona, Git i GitHub
+- Dzień 2 - Python: Booleans i instrukcje warunkowe + podstawy SQL
+- Dzień 3 - SQL: sortowanie i funkcje agregujące
+- Dzień 4 - Uporządkowanie i dokumentacja repozytorium
