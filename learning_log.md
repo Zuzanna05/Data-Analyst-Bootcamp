@@ -87,3 +87,31 @@ Coraz swobodniej czuję się również ze składnią zapytań SQL i kolejności�
 ## Dzień 4 - Dokumentacja repozytorium
 Dzisiaj uporządkowałam repozytorium i utworzyłam plik README.md opisujący mój Data Analyst Bootcamp.
 Nie realizowałam nowego materiału. Celem dzisiejszego dnia było utrzymanie regularności nauki i dalsze rozwijanie dokumentacji projektu.
+
+
+## Dzień 5 - Python: listy
+
+### Czego się dzisiaj nauczyłam?
+Dzisiaj poznałam podstawy pracy z listami w Pythonie.
+
+Przećwiczyłam:
+- tworzenie list
+- odwoływanie się do elementów za pomocą indeksów
+- indeksy dodatnie i ujemne
+- sprawdzanie długości listy za pomocą 'len()'
+- dodawanie elementów za pomocą 'append()'
+- usuwanie elementów za pomocą 'remove()'
+- zmianę elementów znajdujących się na liście
+- sprawdzanie obecności elementu za pomocą operatora 'in'
+- funkcje 'min()', 'max()' i 'sum()'
+
+### Co potrafię zrobić samodzielnie?
+Potrafię utworzyć listę, odczytywać i modyfikować jej elementy oraz dodawać i usuwać wartości. Potrafię sprawdzić, czy dany element znajduje się na liście.
+Potrafię również wykonać podstawową analizę listy wartości liczbowych, np. znaleźć minimum, maksimum, sumę oraz obliczyć średnią za pomocą 'sum()' i 'len()'.
+
+### Co było dla mnie trudne?
+Musiałam utrwalić różnicę pomiędzy nawiasami '[]', używanymi przy indeksowaniu list, a '()', używanymi przy wywoływaniu funkcji.
+Dowiedziałam się również, że metoda 'append()' automatycznie dodaje element na koniec listy i przyjmuje jeden argument.
+
+### Wnioski po dzisiejszej nauce
+Listy pozwalają przechowywać wiele wartości w jednej zmiennej i wykonywać na nich wspólne operacje. Zaczynam również łączyć ze sobą elementy poznane podczas wcześniejszych dni, np. listy, wartości Boolean oraz instrukcje warunkowe.

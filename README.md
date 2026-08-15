@@ -13,3 +13,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 2 - Python: Booleans i instrukcje warunkowe + podstawy SQL
 - Dzień 3 - SQL: sortowanie i funkcje agregujące
 - Dzień 4 - Uporządkowanie i dokumentacja repozytorium
+- Dzień 5 - Python: listy i podstawowe operacje na danych
