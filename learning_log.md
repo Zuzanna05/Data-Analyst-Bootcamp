@@ -115,3 +115,39 @@ Dowiedziałam się również, że metoda 'append()' automatycznie dodaje element
 
 ### Wnioski po dzisiejszej nauce
 Listy pozwalają przechowywać wiele wartości w jednej zmiennej i wykonywać na nich wspólne operacje. Zaczynam również łączyć ze sobą elementy poznane podczas wcześniejszych dni, np. listy, wartości Boolean oraz instrukcje warunkowe.
+
+
+## Dzień 6 - Python: pętle 'for', 'range()' i list comprehension
+
+### Python
+Dzisiaj przećwiczyłam:
+- iterowanie po listach za pomocą pętli 'for'
+- łączenie pętli 'for' z instrukcjami 'if' i 'else'
+- wykorzystanie 'range()' do wykonywania operacji dla kolejnych wartości
+- wykonywanie obliczeń wewnątrz pętli
+- tworzenie nowych list za pomocą list comprehension
+- filtrowanie danych za pomocą warunku w list comprehension
+- wykorzystanie 'sum()' i 'len()' do obliczenia średniej
+
+Ćwiczenia obejmowały m.in.:
+- wyświetlanie kolejnych produktów z listy
+- filtrowanie wartości sprzedaży
+- klasyfikowanie sprzedaży jako wysokiej lub niskiej
+- generowanie liczby zamówień dla kolejnych miesięcy
+- tworzenie nowych list na podstawie istniejącyh danych
+- zwiększanie wybranych wartości sprzedaży o 10%
+- wykonywanie prostej analizy wyników sprzedaży
+
+### Co potrafię zrobić samodzielnie?
+Potrafię przejść po elementach listy za pomocą pętli 'for' i zastosować dla każdego elementu określony warunek lub obliczenie. Potrafię korzystać z 'range()' oraz tworzyć proste list comprehension. Potrafię również filtrować dane i obliczyć średnią na podstawie listy wartości.
+
+### Co było dla mnie trudne?
+Najwięcej uwagi wymagało zrozumienie składni list comprehension oraz kolejności jej elementów. Musiałam również przypomnieć sobie wykorzystanie funkcji 'len()' podczas obliczania średniej.
+
+### Co chcę jeszcze powtórzyć?
+Chcę utrwalić list comprehension, szczególnie połączenie przekształcania wartości z warunkiem 'if'.
+
+### Najważniejsze wnioski
+Pętla 'for' pozwala wykonywać te same operacje dla wielu elementów danych bez powtarzania kodu.
+List comprehension pozwala w krótszy sposób tworzyć i filtrować nowe listy.
+Coraz łatwiej jest mi łączyć poznane wcześniej elementy Pythona w jedno rozwiązanie.
