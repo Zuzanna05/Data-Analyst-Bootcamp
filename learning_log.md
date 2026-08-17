@@ -151,3 +151,45 @@ Chcę utrwalić list comprehension, szczególnie połączenie przekształcania w
 Pętla 'for' pozwala wykonywać te same operacje dla wielu elementów danych bez powtarzania kodu.
 List comprehension pozwala w krótszy sposób tworzyć i filtrować nowe listy.
 Coraz łatwiej jest mi łączyć poznane wcześniej elementy Pythona w jedno rozwiązanie.
+
+
+## Dzień 7 - Python: słowniki i analiza danych
+
+### Python
+Dzisiaj przećwiczyłam:
+- tworzenie słowników 'dict'
+- przechowywanie danych w parach klucz-wartość
+- odczytywanie wartości za pomocą kluczy
+- modyfikowanie istniejących wartości w słowniku
+- dodawanie nowych par klucz-wartość
+- iterowanie po słowniku za pomocą '.items()'
+- tworzenie i przetwarzanie list słowników
+- łączenie słowników z pętlami 'for' i instrukcjami 'if'
+- wykonywanie prostych obliczeń na danych zapisanych w słownikach
+- sumowanie wynikow za pomocą zmiennej akumulującej
+- formatowanie liczb zmiennoprzecinkowych do dwóch miejsc po przecinku
+
+Ćwiczenia obejmowały m.in.:
+- utworzenie słownika opisującego produkt
+- odczytywanie ceny, nazwy i kategorii produktu
+- aktualizację ceny i liczby sprzedanych sztuk
+- dodanie informacji o promocji
+- filtrowanie produktów na podstawie ceny
+- pracę z listą wielu produktów zapisanych jako słowniki
+- obliczanie wartości sprzedaży na podstawie ceny i liczby sztuk
+- klasyfikowanie produktów według wartości sprzedaży
+- obliczenie łącznej wartości sprzedaży wszystkich produktów
+
+### Co potrafię zrobić samodzielnie?
+Potrafię tworzyć słowniki i odczytywać dane za pomocą kluczy. Potrafię modyfikować istniejące wartości oraz dodawać nowe informacje do słownika. Potrafię pracować z listą słowników i łączyć ją z pętlami 'for', instrukcjami warunkowymi oraz prostymi obliczeniami.
+
+### Co było dla mnie trudne?
+Trudniejsze było początkowo zrozumienie iterowania po słowniku za pomocą '.items()' oraz różnicy pomiędzy modyfikowaniem istniejącego słownika a przypisaniem do zmiennej zupełnie nowego słownika. Przećwiczyłam również działanie zmiennych pomiędzy komórkami w Jupyter Notebook.
+
+### Co chcę jeszcze powtórzyć?
+Chcę utrwalić pracę z listami słowników, szczególnie odwoływanie się do wartości za pomocą kluczy podczas korzystania z pętli i warunków.
+
+### Najważniejsze wnioski
+Słowniki pozwalają przechowywać powiązane informacje o jednym obiekcie w uporządkowanej formie.
+Lista słowników pozwala przechowywać wiele podobnych rekordów.
+Łącząc listy, słowniki, pętle i warunki mogę wykonywać pierwsze proste analizy danych.

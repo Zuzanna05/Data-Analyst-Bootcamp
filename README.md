@@ -15,3 +15,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 4 - Uporządkowanie i dokumentacja repozytorium
 - Dzień 5 - Python: listy i podstawowe operacje na danych
 - Dzień 6 - Python: pętle 'for', 'range()' i list comprehension
+- Dzień 7 - Python: słowniki i analiza danych
