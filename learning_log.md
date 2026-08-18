@@ -193,3 +193,41 @@ Chcę utrwalić pracę z listami słowników, szczególnie odwoływanie się do 
 Słowniki pozwalają przechowywać powiązane informacje o jednym obiekcie w uporządkowanej formie.
 Lista słowników pozwala przechowywać wiele podobnych rekordów.
 Łącząc listy, słowniki, pętle i warunki mogę wykonywać pierwsze proste analizy danych.
+
+
+## Dzień 8 - Python: funkcje w analizie danych
+
+### Python
+Dzisiaj przećwiczyłam:
+- definiowanie funkcji za pomocą 'def'
+- tworzenie funkcji z parametrami
+- przekazywanie argumentów do funkcji
+- zwracanie wyników za pomocą 'return'
+- różnicę pomiędzy 'print()' a 'return'
+- wykorzystywanie instrukcji 'if' i 'else' wewnątrz funkcji
+- przekazywanie słowników jako argumentów funkcji
+- wykorzystywanie funkcji podczas pracy z listą słowników
+- przekazywanie wyniku jednej funkcji do kolejnej
+
+Ćwiczenia obejmowały m.in.:
+- stworzenie prostej funkcji wyświetlającej powitanie
+- przekazywanie imienia jako parametru funkcji
+- obliczanie wartości sprzedaży na podstawie ceny i liczby sztuk
+- klasyfikowanie sprzedaży jako wysokiej lub niskiej
+- stworzenie funkcji pracującej na słowniku produktu
+- wykorzystanie funkcji dla wielu produktów zapisanych jako lista słowników
+- połączenie funkcji obliczającej wartość sprzedaży z funkcją klasyfikującą wynik
+
+### Co potrafię zrobić samodzielnie?
+Potrafię stworzyć prostą funkcję, przekazać do niej parametry i ją wywołać. Potrafię wykorzystać 'return' do zwrócenia wyniku funkcji. Potrafię również przekazać słownik do funkcji i wykorzystać jego dane do wykonania obliczeń.
+
+### Co było dla mnie trudne?
+Najwięcej trudności sprawiło mi zrozumienie różnicy pomiędzy 'print()' a 'return'. Początkowo trudne było również zrozumienie, w jaki sposób wynik jednej funkcji może zostać zapisany w zmiennej i następnie przekazany do kolejnej funkcji.
+
+### Co chcę jeszcze powtórzyć?
+Chcę utrwalić 'return' oraz łączenie kilku funkcji podczas rozwiązywania jednego problemu. Chcę również przećwiczyć samodzielne rozpoznawanie, kiedy warto stworzyć funkcję.
+
+### Najważniejsze wnioski
+Funkcja pozwala zapisać określoną logikę raz i wykorzystywać ją wielokrotnie.
+'print()' wyświetla wartość, natomiast 'return' zwraca wynik funkcji, dzięki czemu można wykorzystać go w dalszej części programu.
+Funkcje mogą pracować nie tylko na pojedynczych liczbach lub tekstach, ale również na bardziej złożonych danych, takich jak słowniki.
