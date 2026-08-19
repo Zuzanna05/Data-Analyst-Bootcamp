@@ -17,3 +17,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 6 - Python: pętle 'for', 'range()' i list comprehension
 - Dzień 7 - Python: słowniki i analiza danych
 - Dzień 8 - Python: funkcje w analizie danych
+- Dzień 9 - SQL: GROUP BY, HAVING i agregacja danych

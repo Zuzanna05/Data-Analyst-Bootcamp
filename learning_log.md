@@ -231,3 +231,41 @@ Chcę utrwalić 'return' oraz łączenie kilku funkcji podczas rozwiązywania je
 Funkcja pozwala zapisać określoną logikę raz i wykorzystywać ją wielokrotnie.
 'print()' wyświetla wartość, natomiast 'return' zwraca wynik funkcji, dzięki czemu można wykorzystać go w dalszej części programu.
 Funkcje mogą pracować nie tylko na pojedynczych liczbach lub tekstach, ale również na bardziej złożonych danych, takich jak słowniki.
+
+
+## Dzień 9 - SQL: grupowanie i agregacja danych
+
+### SQL
+Dzisiaj przećwiczyłam:
+- przypomnienie 'SELECT', 'WHERE' i 'ORDER BY'
+- modyfikowanie istniejącej tabeli za pomocą 'ALTER TABLE'
+- dodawanie nowej kolumny za pomocą 'ADD COLUMN'
+- aktualizowanie danych za pomocą 'UPDATE'
+- grupowanie danych za pomocą 'GROUP BY'
+- wykorzystanie 'COUNT()', 'SUM()' i 'AVG()' dla grup danych
+- filtrowanie wyników grupowania za pomocą 'HAVING'
+- sortowanie zagregowanych wyników za pomocą 'ORDER BY'
+- wykorzystywanie aliasów 'AS' w wynikach zapytań
+
+Ćwiczenia obejmowały:
+- dodanie kategorii produktów do tabeli sprzedaży
+- policzenie liczby produktów w każdej kategorii
+- obliczenie łącznej liczby sprzedanych sztuk według kategorii
+- obliczenie średniej ceny produktów według kategorii
+- filtrowanie kategorii na podstawie zagregowanych wyników
+- połączenie 'WHERE', 'GROUP BY', 'HAVING' i 'ORDER BY' w jednym zapytaniu
+
+### Co potrafię zrobić samodzielnie?
+Potrafię grupować dane za pomocą 'GROUP BY' i wykonywać obliczenia dla poszczególnych grup za pomocą 'COUNT()', "SUM()' 
+i 'AVG()'. Potrafię również filtrować dane przed grupowaniem oraz filtrować wyniki agregacji.
+
+### Co było dla mnie trudne?
+Trudniejsze było początkowo rozróżnienie momentu użycia 'WHERE' i 'HAVING'. Przećwiczyłam również sortowanie wyników agregacji i zrozumiałam, że po grupowaniu często pracuję już na wynikach takich jak 'SUM()' lub 'AVG()', a nie na pojedynczych wartościach.
+
+### Co chcę jeszcze powtórzyć?
+Chcę utrwalić bardziej złożone zapytania zawierające jednocześnie 'WHERE', 'GROUP BY', 'HAVING' i 'ORDER BY'.
+
+### Najważniejsze wnioski
+'WHERE' filtruje pojedyncze rekordy przed grupowaniem, natomiast 'HAVING' filtruje grupy po wykonaniu agregacji.
+'GROUP BY' pozwala analizować dane osobno dla poszczególnych kategorii lub innych grup.
+Funkcje agregujące pozwalają odpowiadać na pytania biznesowe dotyczące liczby, sumy i średniej wartości danych.
