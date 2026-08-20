@@ -18,3 +18,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 7 - Python: słowniki i analiza danych
 - Dzień 8 - Python: funkcje w analizie danych
 - Dzień 9 - SQL: GROUP BY, HAVING i agregacja danych
+- Dzień 10 - SQL: JOIN i łączenie tabel

@@ -269,3 +269,45 @@ Chcę utrwalić bardziej złożone zapytania zawierające jednocześnie 'WHERE',
 'WHERE' filtruje pojedyncze rekordy przed grupowaniem, natomiast 'HAVING' filtruje grupy po wykonaniu agregacji.
 'GROUP BY' pozwala analizować dane osobno dla poszczególnych kategorii lub innych grup.
 Funkcje agregujące pozwalają odpowiadać na pytania biznesowe dotyczące liczby, sumy i średniej wartości danych.
+
+
+## Dzień 10 - SQL: JOIN i łączenie tabel
+
+### SQL
+Dzisiaj przećwiczyłam:
+- tworzenie tabel za pomocą 'CREATE TABLE'
+- wykorzystanie 'PRIMARY KEY' i 'AUTO_INCREMENT'
+- dodawanie danych za pomocą 'INSERT INTO'
+- łączenie danych z dwóch tabel
+- wykorzystanie 'INNER JOIN'
+- wykorzystanie 'LEFT JOIN'
+- określanie warunku połączenia za pomocą 'ON'
+- stosowanie aliasów tabel
+- wykonywanie obliczeń na danych pochodzących z różnych tabel
+- łączenie 'JOIN' z 'SUM()', 'GROUP BY' i 'ORDER BY'
+
+### Ćwiczenia
+Pracowałam na tabelach 'produkty' i 'zamowienia'. Łączyłam je za pomocą identyfikatora produktu i analizowałam dane sprzedażowe.
+
+Obliczałam m.in.:
+- wartość sprzedaży pojedynczego zamówienia
+- łączną wartość sprzedaży według produktu
+- ranking produktów według wartości sprzedaży
+- łączną liczbę sprzedanych sztuk dla każdego produktu
+
+Przećwiczyłam również różnicę między 'INNER JOIN' i 'LEFT JOIN', dodając produkt bez żadnego zamówienia.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię połączyć dwie tabele na podstawie wspólnego klucza. Rozumiem, do czego służy warunek 'ON' oraz potrafię korzystać z aliasów tabel. Potrafię także połączyć 'JOIN' z funkcjami agregującymi i 'GROUP BY'
+
+### Co było dla mnie trudne?
+Najwięcej uwagi wymagało zrozumienie, po której kolumnie należy połączyć tabele oraz jak połączyć 'JOIN' z grupowaniem danych. Przećwiczyłam również różnicę pomiędzy 'INNER JOIN' i 'LEFT JOIN'.
+
+### Co chcę jeszcze powtórzyć?
+Chcę utrwalić samodzielne rozpoznawanie, jakiego rodzaju 'JOIN' potrzebuję oraz po jakich kolumnach należy połączyć tabele.
+
+### Najważniejsze wnioski
+'INNER JOIN' zwraca rekordy posiadające dopasowanie w obu tabelach.
+'LEFT JOIN' zachowuje wszystkie rekordy z lewej tabeli, nawet jeśli nie mają dopasowania w prawej tabeli.
+Warunek 'ON' określa w jaki sposób rekordy z dwóch tabel są ze sobą powiązane.
+Połączenie 'JOIN', 'GROUP BY' i funkcji agregujących pozwala analizować dane znajdujące się w wielu tabelach.
