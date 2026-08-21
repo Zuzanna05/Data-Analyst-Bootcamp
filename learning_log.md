@@ -311,3 +311,38 @@ Chcę utrwalić samodzielne rozpoznawanie, jakiego rodzaju 'JOIN' potrzebuję or
 'LEFT JOIN' zachowuje wszystkie rekordy z lewej tabeli, nawet jeśli nie mają dopasowania w prawej tabeli.
 Warunek 'ON' określa w jaki sposób rekordy z dwóch tabel są ze sobą powiązane.
 Połączenie 'JOIN', 'GROUP BY' i funkcji agregujących pozwala analizować dane znajdujące się w wielu tabelach.
+
+
+## Dzień 11 - Powtórka Python i SQL
+
+### Python
+Dzisiaj powtórzyłam:
+- filtrowanie danych za pomocą list comprehension
+- wykorzystanie 'sum()' i 'len()' do obliczania średniej
+- pracę ze słownikami
+- tworzenie funkcji
+- przekazywanie słownika jako argumentu funkcji
+- wykorzystanie 'return' do zwracania wyniku
+
+### SQL
+Dzisiaj przećwiczyłam:
+- 'SUM()' i 'GROUP BY'
+- filtrowanie zagregowanych wyników za pomocą 'HAVING'
+- łączenie tabel za pomocą 'INNER JOIN'
+- wykorzystanie 'LEFT JOIN' do zachowania wszystkich rekordów z lewej tabeli
+- stosowanie aliasów tabel
+- łączenie 'JOIN' z 'SUM()' i 'GROUP BY'
+
+### Co potrafię zrobić samodzielnie?
+Potrafię filtrować listy w Pythonie, wykonywać podstawowe obliczenia oraz tworzyć funkcje pracujące na słownikach. W SQL potrafię grupować i agregować dane oraz łączyć informacje znajdujące się w różnych tabelach.
+
+### Co było dla mnie trudne?
+Do przypomnienia wymagała składnia list comprehension oraz odwoływanie się do wartości słownika wewnątrz funkcji. W SQL muszę jeszcze utrwalić, po jakiej kolumnie należy uzyć 'GROUP BY'.
+
+### Co chcę jeszcze powtórzyć?
+Chcę dalej ćwiczyć samodzielne dobieranie 'GROUP BY' oraz pracę z funkcjami w Pythonie bez podpowiedzi składni.
+
+### Najważniejsze wnioski
+'GROUP BY' określa, według czego dzielę dane na grupy, a funkcje takie jak 'SUM()' wykonują obliczenia dla tych grup.
+'LEFT JOIN' jest przydatny, gdy chcę zachować wszystkie rekordy z lewej tabeli, również te bez dopasowania.
+W Pythonie funkcja może przyjąć cały słownik jako argument, korzystać z jego wartości i zwrócić obliczony wynik za pomocą 'return'.
