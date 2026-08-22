@@ -20,3 +20,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 9 - SQL: GROUP BY, HAVING i agregacja danych
 - Dzień 10 - SQL: JOIN i łączenie tabel
 - Dzień 11 - Powtórka Python i SQL
+- Dzień 12 - Pandas: DataFrame, podstawowa eksploracja danych i filtrowanie

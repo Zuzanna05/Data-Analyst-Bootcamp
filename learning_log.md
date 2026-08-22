@@ -346,3 +346,28 @@ Chcę dalej ćwiczyć samodzielne dobieranie 'GROUP BY' oraz pracę z funkcjami 
 'GROUP BY' określa, według czego dzielę dane na grupy, a funkcje takie jak 'SUM()' wykonują obliczenia dla tych grup.
 'LEFT JOIN' jest przydatny, gdy chcę zachować wszystkie rekordy z lewej tabeli, również te bez dopasowania.
 W Pythonie funkcja może przyjąć cały słownik jako argument, korzystać z jego wartości i zwrócić obliczony wynik za pomocą 'return'.
+
+
+## Dzień 12 - Pandas: podstawy analizy danych
+
+### Czego się nauczyłam?
+- importowania biblioteki Pandas za pomocą 'import pandas as pd'
+- tworzenia DataFrame za pomocą 'pd.DataFrame()'
+- sprawdzania podstawowych informacji o danych:
+    - 'df.head()' - podgląd pierwszych wierszy
+    - 'df.shape' - liczba wierszy i kolumn
+    - 'df.columns' - nazwy kolumn
+    - 'df.info()' - informacje o kolumnach i typach danych
+- wybierania pojedynczej kolumny z DataFrame
+- wybierania kilku kolumn jednocześnie
+- filtrowania danych na podstawie warunków
+
+### Co potrafię zrobić samodzielnie?
+Potrafię utworzyć prosty DataFrame ze słownika, sprawdzić jego strukturę, wybrać potrzebne kolumny oraz filtrować wiersze na podstawie wartości liczbowych i tekstowych.
+
+### Co było dla mnie trudne?
+Muszę utrwalić składnię Pandas, szczególnie różnicę między wybieraniem jednej i klku kolumn oraz konstrukcję 'df[df["kolumna] ... ]'. Przypomniałam sobie również różnicę między '=' a '=='.
+
+### Najważniejsze wnioski
+DataFrame można traktować jak tabelę składającą się z wierszy i kolumn. Przed rozpoczęciem analizy warto najpierw poznać strukturę danych za pomocą 'head()', 'shape', 'columns' i 'info()'.
+Filtrowanie w Pandas polega na utworzeniu warunku zwracającego 'True' lub 'False', a następnie wykorzystaniu go do wybrania odpowiednich wierszy.
