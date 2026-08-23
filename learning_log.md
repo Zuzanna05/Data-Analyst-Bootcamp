@@ -371,3 +371,37 @@ Muszę utrwalić składnię Pandas, szczególnie różnicę między wybieraniem 
 ### Najważniejsze wnioski
 DataFrame można traktować jak tabelę składającą się z wierszy i kolumn. Przed rozpoczęciem analizy warto najpierw poznać strukturę danych za pomocą 'head()', 'shape', 'columns' i 'info()'.
 Filtrowanie w Pandas polega na utworzeniu warunku zwracającego 'True' lub 'False', a następnie wykorzystaniu go do wybrania odpowiednich wierszy.
+
+
+## Dzień 13 - Pandas: sortowanie i podstawowa analiza danych
+
+### Czego się nauczyłam?
+- sortowania danych za pomocą 'sort_values()'
+- sortowania rosnącego i malejącego za pomocą 'ascending=True'
+- wykonywania podstawowych obliczeń na kolumnach:
+    - '.sum()' - suma
+    - '.mean()' - średnia
+    - '.min()' - minimum
+    - '.max()' - maksimum
+- wykonywania działań pomiędzy kolumnami DataFrame
+- tworzenia nowych kolumn na podstawie istniejących danych
+- łączenia filtrowania z sortowaniem
+- wykorzystywania Pandas do odpowiadania na proste pytania biznesowe
+
+### Ćwiczenia
+Utworzyłam kolumnę 'wartosc_sprzedazy' na podstawie ceny i liczby sztuk: 'cena * liczba_sztuk'.
+Filtrowałamprodukty według kategorii i wartości sprzedaży oraz sortowałam wyniki od największych do najmniejszych.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię filtrować i sortować dane w DataFrame, wykonywać podstawowe obliczenia na kolumnach oraz tworzyć nowe kolumny. Potrafię również połączyć kilka operacji Pandas w jednym poleceniu.
+
+### Co było dla mnie trudne?
+Muszę jeszcze utrwalić znaczenie parametru 'ascending', szczególnie różnicę między 'True' i 'False'. Nowym zagadnieniem było również wykonywanie działań na całych kolumnach DataFrame.
+
+### Co chcę jeszcze powtórzyć?
+Chcę dalej ćwiczyć łączenie kilku operacji Pandas oraz samodzielne dobieranie metod do problemu analitycznego.
+
+### Najważniejsze wnioski
+Pandas pozwala wykonywać działania na całych kolumnach bez używania zwykłej pętli 'for'.
+Filtrowanie i sortowanie można ze sobą łączyć, np. najpierw wybrać interesujące dane, a następnie uporządkować wynik.
+'ascending=True' oznacza sortowanie rosnące, a 'ascending=False' - malejące.

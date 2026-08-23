@@ -21,3 +21,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 10 - SQL: JOIN i łączenie tabel
 - Dzień 11 - Powtórka Python i SQL
 - Dzień 12 - Pandas: DataFrame, podstawowa eksploracja danych i filtrowanie
+- Dzień 13 - Pandas: sortowanie, obliczenia i tworzenie nowych kolumn
