@@ -405,3 +405,32 @@ Chcę dalej ćwiczyć łączenie kilku operacji Pandas oraz samodzielne dobieran
 Pandas pozwala wykonywać działania na całych kolumnach bez używania zwykłej pętli 'for'.
 Filtrowanie i sortowanie można ze sobą łączyć, np. najpierw wybrać interesujące dane, a następnie uporządkować wynik.
 'ascending=True' oznacza sortowanie rosnące, a 'ascending=False' - malejące.
+
+
+## Dzień 14 - Pandas: podstawy groupby()
+
+### Czego się nauczyłam?
+- grupowania danych za pomocą 'groupby()'
+- grupowania danych według kategorii
+- łączenia 'groupby()' z metodą '.sum()'
+- obliczania średniej dla grup za pomocą '.mean()'
+- analizowania liczby sprzedanych sztuk według kategorii
+- analizowania wartości sprzedaży według kategorii
+- wyciągania prostych wniosków biznesowych z zagregowanych danych
+
+### Ćwiczenia
+Obliczyłam:
+- łączną liczbę sprzedanych sztuk w każdej kategorii
+- łączną wartość sprzedaży według kategorii
+- średnią cenę produktów w każdej kategorii
+
+### Co potrafię zrobić samodzielnie?
+Potrafię pogrupować dane według wybranej kolumny i wykonać obliczenia dla każdej grupy za pomocą '.sum()' i '.mean()'.
+
+### Co było dla mnie trudne?
+Muszę utrwalić składnię 'groupby()' oraz pamiętać o używaniu '()' przy wywoływaniu metod takich jak '.mean()'.
+
+### Najważniejsze wnioski
+'groupby()' pozwala podzielić dane na grupy i wykonywać obliczenia osobno dla każdej z nich.
+W analizowanych danych kategoria Komputery generuje większą wartość sprzedaży mimo mniejszej liczby sprzedanych sztuk. Wynika to z dużo wyższych cen produktów w tej kategorii.
+Ważne jest, aby nie wyciągać z danych wniosków, których wyniki bezpośrednio nie potwierdzają.
