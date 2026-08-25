@@ -23,3 +23,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 12 - Pandas: DataFrame, podstawowa eksploracja danych i filtrowanie
 - Dzień 13 - Pandas: sortowanie, obliczenia i tworzenie nowych kolumn
 - Dzień 14 - Pandas: grupowanie danych, agregacja i podstawowe wnioski biznesowe
+- Dzien 15 - Pandas: groupby(), agregacje, filtrowanie i analiza wyników

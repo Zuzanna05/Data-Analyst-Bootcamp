@@ -434,3 +434,46 @@ Muszę utrwalić składnię 'groupby()' oraz pamiętać o używaniu '()' przy wy
 'groupby()' pozwala podzielić dane na grupy i wykonywać obliczenia osobno dla każdej z nich.
 W analizowanych danych kategoria Komputery generuje większą wartość sprzedaży mimo mniejszej liczby sprzedanych sztuk. Wynika to z dużo wyższych cen produktów w tej kategorii.
 Ważne jest, aby nie wyciągać z danych wniosków, których wyniki bezpośrednio nie potwierdzają.
+
+
+## Dzień 15 - Pandas: groupby() i analiza wyników
+
+### Czego się nauczyłam?
+- utrwaliłam grupowanie danych za pomocą 'groupby()'
+- wykorzystywałam agregacje:
+    - '.sum()' - suma
+    - '.mean()' - średnia
+    - '.min()' - minimum
+    - '.max()' - maksimum
+- poznałam metodę 'reset_index()'
+- zamieniałam wynik grupowania na DataFrame
+- sortowałam zagregowane dane za pomocą 'sort_values()'
+- filtrowałam wyniki po wykonaniu agregacji
+- łączyłam kilka operacji Pandas w jednej analizie
+- wyciągałam wnioski biznesowe na podstawie otrzymanych wyników
+
+### Ćwiczenia
+Analizowałam sprzedaż według kategorii produktów.
+
+Obliczyłam m.in.:
+- łączną liczbę sztuk według kategorii
+- średnią cenę według kategorii
+- minimalną i maksymalną cenę w każdej kategorii
+- łączną wartość sprzedaży według kategorii
+
+Następnie filtrowałam i sortowałam zagregowane wyniki.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię zastosować schemat:
+'groupby()' -> agregacja -> reset_index() -> filtrowanie -> sortowanie'
+Potrafię również dobrać podstawową metodę agregacji do pytania analitycznego 
+i sformułować prosty wniosek na podstawie wyniku.
+
+### Co było dla mnie trudne?
+Muszę pamiętać, czy w danym momencie pracuję na oryginalnym 'df', czy na nowym DataFrame zawierającym zagregowane wyniki...
+Muszę również utrwalić, że 'reset_index()' zwraca nowy wynik, dlatego jeśli chcę zachować zmianę, muszę przypisać go do zmiennej.
+
+### Najważniejsze wnioski
+'groupby()' pozwala analizować dane na poziomie grup, a nie tylko pojedynczych wierszy.
+Po wykonaniu agregacji mogę dalej filtrować i sortować wyniki.
+W analizowanych danych kategoria Komputery generuje większą łączną wartość sprzedaży niż kategoria Akcesoria.
