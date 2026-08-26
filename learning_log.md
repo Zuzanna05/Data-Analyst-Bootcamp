@@ -477,3 +477,51 @@ Muszę również utrwalić, że 'reset_index()' zwraca nowy wynik, dlatego jeśl
 'groupby()' pozwala analizować dane na poziomie grup, a nie tylko pojedynczych wierszy.
 Po wykonaniu agregacji mogę dalej filtrować i sortować wyniki.
 W analizowanych danych kategoria Komputery generuje większą łączną wartość sprzedaży niż kategoria Akcesoria.
+
+
+## Dzień 16 - Pandas: merge() i łączenie DataFrame
+
+### Czego się nauczyłam?
+- łączenia dwóch DataFrame za pomocą 'pd.merge()'
+- rozpoznawania kolumn, które tworzą relację między tabelami
+- używania 'left_on' i 'right_on', gdy kolumny łączące mają różne nazwy
+- różnicy między INNER JOIN i LEFT JOIN
+- używania parametru 'how="left"'
+- interpretowania brakujących wartości 'NaN' po wykonaniu LEFT JOIN
+- wykonywania obliczeń na danych po połączeniu tabel
+- łączenia 'merge()' z 'groupby()', 'sum()', 'reset_index()' i 'sort_values()'
+
+### Ćwiczenia
+Pracowałam z dwoma DataFrame:
+- 'df_produkty' - informacje o produktach i cenach
+- 'df_zamowienia' - informacje o zamówieniach i liczbie sztuk
+
+Połączyłam dane na podstawie relacji:
+'df_produkty["id"]' <-> 'df_zamowienia["produkt_id"]'
+
+Po połączeniu danych utworzyłam kolumnę 'wartosc_sprzedazy' na podstawie ceny i liczby sprzedanych sztuk.
+Następnie grupowałam dane według produktów, sumowałam wyniki i sortowałam je od największych do najmniejszych.
+
+### INNER JOIN vs LEFT JOIN
+INNER JOIN zwraca tylko rekordy, które mają dopasowanie w obu tabelach.
+LEFT JOIN zachowuje wszystkie rekordy z lewej tabeli, nawet jeśli nie mają dopasowania w prawej tabeli.
+Dzieki LEFT JOIN można np. zachować w raporcie produkty, które nie mają żadnych zamówień.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- znaleźć kolumny tworzące relację między dwoma DataFrame
+- połączyć DataFrame za pomocą 'pd.merge()'
+- użyć 'left_on', 'right_on' i 'how="left"'
+- wykonać obliczenia na połączonych danych
+- pogrupować połączone dane i obliczyć sumę
+- zamienić wynik grupowania na DataFrame za pomocą 'reset_index()'
+- posortować wynik analizy
+
+### Co było dla mnie trudne?
+Muszę jeszcze utrwalić kolejność wykonywania operacji oraz pamiętać o zapisywaniu wyników do odpowiednich zmiennych.
+Muszę również zwracać uwagę na to, po jakiej kolumnie grupuję dane - wybór kolumny powinien wynikać z pytania, na które chcę odpowiedzieć.
+
+### Najważniejsze wnioski
+'merge()' w Pandas pełni podobną funkcję do 'JOIN' w SQL.
+Przed połączeniem danych najpierw należy zneleźć relację między tabelami i określić, które kolumny reprezentują ten sam identyfikator.
+Połączenie danych jest często dopiero początkiem analizy. Po 'merge()' można dalej tworzyć kolumny, grupować, agregować, filtrować i sortować dane.

@@ -24,3 +24,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 13 - Pandas: sortowanie, obliczenia i tworzenie nowych kolumn
 - Dzień 14 - Pandas: grupowanie danych, agregacja i podstawowe wnioski biznesowe
 - Dzien 15 - Pandas: groupby(), agregacje, filtrowanie i analiza wyników
+- Dzień 16 - Pandas: merge(), INNER/LEFT JOIN i analiza połączonych danych
