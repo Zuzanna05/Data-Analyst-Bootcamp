@@ -525,3 +525,38 @@ Muszę również zwracać uwagę na to, po jakiej kolumnie grupuję dane - wybó
 'merge()' w Pandas pełni podobną funkcję do 'JOIN' w SQL.
 Przed połączeniem danych najpierw należy zneleźć relację między tabelami i określić, które kolumny reprezentują ten sam identyfikator.
 Połączenie danych jest często dopiero początkiem analizy. Po 'merge()' można dalej tworzyć kolumny, grupować, agregować, filtrować i sortować dane.
+
+
+## Dzień 17 - Pandas: braki i podstawy czyszczenia
+
+### Czego się nauczyłam?
+- utrwaliłam łączenie DataFrame za pomocą 'pd.merge()' i LEFT JOIN
+- poznałam znaczenie brakujących wartości 'NaN'
+- wykrywałam brakujące wartości za pomocą 'isna()'
+- liczyłam liczbę braków w poszczególnych kolumnach za pomocą 'isna().sum()'
+- uzupełniałam brakujące wartości za pomocą 'fillna()'
+- nauczyłam się, że sposób obsługi 'NaN' zależy od znaczenia danych i kontekstu
+
+### Ćwiczenia
+Połączyłam tabelę produktów z tabelą zamówień za pomocą LEFT JOIN, zachowując również produkty bez zamówień.
+
+Następnie:
+- sprawdziłam, gdzie występują wartości 'NaN'
+- policzyłam liczbę braków w każdej kolumnie
+- przeanalizowałam przyczynę powstania brakujących wartości
+- uzupełniłam brak w 'liczba_sztuk' wartością '0' za pomocą 'fillna(0)'
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- wykryć brakujące wartości w DataFrame
+- policzyć liczbę braków w każdej kolumnie
+- uzupełnić wybrane braki za pomocą 'fillna()'
+- ocenić, czy zastąpienie brakującej wartości zerem ma sens w danym kontekście
+
+### Co było dla mnie trudne?
+Muszę pamiętać, że wynik 'isna().sum()' pokazuje liczbę brakujących wartości w kolumnie, a nie wartość, którą należy wstawić w miejsce 'NaN'.
+
+### Najważniejsze wnioski
+Nie każdy 'NaN' powinien być automatycznie zastępowany wartością '0'.
+Jeżeli brak 'liczba_sztuk' powstał po LEFT JOIN dlatego, że produkt nie występuje w tabeli zamówień, wartość '0' może oznaczać brak sprzedanych sztuk.
+Natomiast brak ceny produktu nie oznacza, że produkt kosztuje '0 zł'. Przed uzupełnieniem brakujących danych należy najpierw zrozumieć, co dany brak oznacza.
