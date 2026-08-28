@@ -560,3 +560,32 @@ Muszę pamiętać, że wynik 'isna().sum()' pokazuje liczbę brakujących warto�
 Nie każdy 'NaN' powinien być automatycznie zastępowany wartością '0'.
 Jeżeli brak 'liczba_sztuk' powstał po LEFT JOIN dlatego, że produkt nie występuje w tabeli zamówień, wartość '0' może oznaczać brak sprzedanych sztuk.
 Natomiast brak ceny produktu nie oznacza, że produkt kosztuje '0 zł'. Przed uzupełnieniem brakujących danych należy najpierw zrozumieć, co dany brak oznacza.
+
+
+## Dzień 18 - Pandas: czyszczenie danych, część 2
+
+### Czego się nauczyłam?
+- usuwać rekordy z brakującymi wartościami za pomocą 'dropna()'
+- wykrywać duplikaty za pomocą 'duplicated()'
+- liczyć duplikaty za pomocą 'duplicated().sum()'
+- usuwać duplikaty za pomocą 'drop_duplicates()'
+- sprawdzać dane ponownie po wykonaniu czyszczenia
+- rozróżniać sytuacje, w których warto użyć 'fillna()' lub 'dropna()'
+
+### Ćwiczenia
+Pracowałam z DataFrame zawierającym brakujące wartości oraz zduplikowane rekordy. Wykrywałam problemy, usunęłam rekordy z brakami i duplikaty, a następnie sprawdziłam poprawność oczyszczonych danych.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- wykryć i policzyć brakujące wartości
+- usunąć rekordy zawierające 'NaN'
+- wykryć i policzyć duplikaty
+- usunąć zduplikowane rekordy
+- zweryfikować dane po czyszczeniu
+
+### Co było dla mnie trudne?
+Muszę pamiętać, że samo wywołanie 'dropna()' lub 'drop_duplicates()' nie zmienia trwale DataFrame, jeśli nie zapiszę wyniku.
+
+### Najważniejsze wnioski
+Przed usunięciem lub uzupełnieniem danych należy najpierw zrozumieć znaczenie brakującej wartości. 'NaN' nie oznacza automatycznie '0'.
+Po czyszczeniu danych warto ponownie sprawdzić braki i duplikaty, aby upewnić się, że operacje przyniosły oczekiwany rezultat.

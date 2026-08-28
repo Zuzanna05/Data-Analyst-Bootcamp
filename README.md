@@ -26,3 +26,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzien 15 - Pandas: groupby(), agregacje, filtrowanie i analiza wyników
 - Dzień 16 - Pandas: merge(), INNER/LEFT JOIN i analiza połączonych danych
 - Dzień 17 - Pandas: NaN, wykrywanie braków i uzupełnianie danych za pomocą fillna()
+- Dzień 18 - Pandas: dropna(), duplicated(), drop_duplicates() i czyszczenie danych
