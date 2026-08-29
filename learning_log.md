@@ -589,3 +589,45 @@ Muszę pamiętać, że samo wywołanie 'dropna()' lub 'drop_duplicates()' nie zm
 ### Najważniejsze wnioski
 Przed usunięciem lub uzupełnieniem danych należy najpierw zrozumieć znaczenie brakującej wartości. 'NaN' nie oznacza automatycznie '0'.
 Po czyszczeniu danych warto ponownie sprawdzić braki i duplikaty, aby upewnić się, że operacje przyniosły oczekiwany rezultat.
+
+
+## Dzień 19 - Pandas: czyszczenie danych i pliki CSV
+
+### Czego się nauczyłam?
+- wykrywać duplikaty według wybranej kolumny za pomocą 'subset'
+- usuwać duplikaty według wybranej kolumny
+- tworzyć podstawowy pipeline czyszczenia danych
+- wczytywać pliki CSV za pomocą 'pd.read_csv()'
+- rozróżniać plik CSV od DataFrame w Pandas
+- wykonywać podstawową inspekcję danych po imporcie
+- zapisywać DataFrame do pliku CSV za pomocą 'to_csv()'
+- używać 'index=False', aby nie zapisywać indeksu DataFrame do pliku
+
+### Ćwiczenia
+Przećwiczyłam wykrywanie i usuwanie brakujących wartości oraz duplikatów. Poznałam parametr 'subset', który pozwala sprawdzać duplikaty na podstawie wybranych kolumn.
+Następnie wczytałam dane z pliku CSV do DataFrame, sprawdziłam ich strukturę, wymiary i brakujące wartości oraz zapisałam dane ponownie do pliku CSV.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- wczytać plik CSV do Pandas
+- wyświetlić pierwsze rekordy za pomocą 'head()'
+- sprawdzić wymiary DataFrame za pomocą 'shape'
+- sprawdzić strukturę danych za pomocą 'info()'
+- wykryć brakujące wartości i duplikaty
+- sprawdzić duplikaty według konkretnej kolumny
+- zapisać DataFrame do pliku CSV bez dodatkowego indeksu
+
+### Co było dla mnie trudne?
+Muszę utrwalić różnicę między metodami i właściwościami DataFrame. Na przykład 'head()' oraz 'info()' są metodami, natomiast 'shape' jest właściwością i nie używa nawiasów.
+Muszę również pamiętać, że 'info()' pokazuje strukturę DataFrame, natomiast 'head()' pozwala szybko zobaczyć, jak wyglądają pierwsze rekordy.
+
+### Najważniejsze wnioski
+Po wczytaniu nieznanego pliku warto najpierw poznać dane, zanim rozpocznie się ich analizę lub czyszczenie.
+
+Podstawowa inspekcja może obejmować:
+'head()' -> podgląd danych
+'shape' -> liczba wierszy i kolumn
+'info()' -> struktura i typy danych
+'isna().sum()' -> liczba brakujących wartości
+
+Samo zapisanie danych pod nazwą 'clean.csv' nie oznacza, że dane zostały oczyszczone. Przed zapisem trzeba najpierw odpowiednio obsłużyć wykryte problemy.
