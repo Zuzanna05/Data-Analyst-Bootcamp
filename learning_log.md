@@ -631,3 +631,35 @@ Podstawowa inspekcja może obejmować:
 'isna().sum()' -> liczba brakujących wartości
 
 Samo zapisanie danych pod nazwą 'clean.csv' nie oznacza, że dane zostały oczyszczone. Przed zapisem trzeba najpierw odpowiednio obsłużyć wykryte problemy.
+
+
+## Dzień 20 - XML: podstawowa struktura danych
+
+### Czego się nauczyłam?
+- czym jest format XML
+- czym różni się struktura XML od CSV
+- czym jest element główny ('root')
+- czym są elementy XML
+- czym są atrybuty elementów
+- czym są wartości tekstowe elementów
+- jak działa zagnieżdżanie elementów w XML
+
+### Ćwiczenia
+Porównałam sposób zapisu tych samych danych w formacie CSV i XML.
+Na przykładzie prostych dokumentów XML przeanalizowałam ich strukturę oraz wskazywałam element główny, elementy zagnieżdżone, atrybuty i wartości tekstowe.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- rozpoznać element główny ('root') dokumentu XML
+- wskazać elementy XML
+- rozpoznać atrybut elementu
+- odróżnić atrybut od elementu
+- wskazać wartość tekstową elementu
+- rozpoznać zagnieżdżoną strukturę XML
+
+### Co było dla mnie trudne?
+Na początku pomyliłam element reprezentujący pojedynczy rekord z jego atrybutem. Muszę utrwalić różnicę między elementem a atrybutem.
+
+### Najważniejsze wnioski
+XML przechowuje dane w strukturze zagnieżdżonych elementów. Dokument XML posiada jeden główny element ('root'), który zawiera pozostałe elementy.
+Element może posiadać atrybuty oraz zawierać inne elementy i wartości tekstowe.
