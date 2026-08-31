@@ -1,0 +1,16 @@
+<produkty>
+	<produkt id="1">
+		<nazwa>Laptop</nazwa>
+		<cena>3499.99</cena>
+	</produkt>
+	
+	<produkt id="2">
+		<nazwa>Monitor</nazwa>
+		<cena>899.99</cena>
+	</produkt>
+
+	<produkt id="3">
+		<nazwa>Klawiatura</nazwa>
+		<cena>249.90</cena>
+	</produkt>
+</produkty>

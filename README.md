@@ -29,3 +29,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 18 - Pandas: dropna(), duplicated(), drop_duplicates() i czyszczenie danych
 - Dzień 19 - Pandas: cleaning pipeline, subset oraz import i eksport plików CSV
 - Dzień 20 - XML: podstawowa struktura, elementy, atrybuty i wartości tekstowe
+- Dzień 21 - XML: odczyt pliku za pomocą ElementTree, getroot(), tag i pętla for

@@ -663,3 +663,38 @@ Na początku pomyliłam element reprezentujący pojedynczy rekord z jego atrybut
 ### Najważniejsze wnioski
 XML przechowuje dane w strukturze zagnieżdżonych elementów. Dokument XML posiada jeden główny element ('root'), który zawiera pozostałe elementy.
 Element może posiadać atrybuty oraz zawierać inne elementy i wartości tekstowe.
+
+
+## Dzień 21 - XML: odczytywanie danych w Pythonie
+
+### Czego się nauczyłam?
+- importować moduł 'xml.etree.ElementTree'
+- wczytywać plik XML za pomocą 'ET.parse()'
+- pobierać element główny za pomocą '.getroot()'
+- sprawdzać nazwę elementu za pomocą '.tag'
+- przechodzić po elementach XML za pomocą pętli 'for'
+
+### Ćwiczenia
+Utworzyłam plik 'produkty.xml', a następnie wczytałam go w Pythonie za pomocą modułu 'ElementTree'.
+Pobrałam element główny dokumentu XML i sprawdziłam jego nazwę za pomocą 
+'.tag'.
+Następnie użyłam pętli 'for', aby przejść po elementach znajdujących się bezpośrednio w elemencie głównym.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- wczytać plik XML w Pythonie
+- zapisać wynik 'ET.parse()' do zmiennej
+- pobrać 'root' dokumentu XML
+- sprawdzić nazwę elementu XML
+- przejść pętlą po elementach znajdujących się w 'root'
+
+### Co było dla mnie trudne?
+Muszę pamiętać, że 'ET.parse()' wymaga poprawnie zbudowanego pliku XML. Jeśli któryś element nie zostanie prawidłowo zamknięty, Python zwróci błąd 'ParseError'.
+Muszę również utrwalić różnicę między całym drzewem XML ('tree') a elementem głównym ('root').
+
+### Najważniejsze wnioski
+Podstawowy schemat odczytu XML w Pythonie wygląda następująco:
+- 'ET.parse()' -> wczytanie pliku XML
+- '.getroot()' -> pobranie elementu głównego
+- '.tag' -> sprawdzenie nazwy elementu
+- 'for element in root' -> przejście po elementach znajdujących się bezpośrednio w elemencie głównym 
