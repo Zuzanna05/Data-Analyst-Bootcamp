@@ -698,3 +698,40 @@ Podstawowy schemat odczytu XML w Pythonie wygląda następująco:
 - '.getroot()' -> pobranie elementu głównego
 - '.tag' -> sprawdzenie nazwy elementu
 - 'for element in root' -> przejście po elementach znajdujących się bezpośrednio w elemencie głównym 
+
+
+## Dzień 22 - XML: oczytywanie elementów, wartości i atrybutów
+
+### Czego się nauczyłam?
+- wyszukiwać elementy XML za pomocą '.find()'
+- odczytywać wartości tekstowe elementów za pomocą '.text'
+- odczytywać wartości atrybutów za pomocą '.get'
+- przechodzić po rekordach XML za pomocą pętli 'for'
+- łączyć odczyt elementów, tekstu i atrybutów w jednej pętli
+
+### Ćwiczenia
+Wczytałam plik 'produkty.xml' za pomocą 'ElementTree' i pobrałam jego element główny.
+Następnie przeszłam pętlą po elementach '<produkt>' i wyszukiwałam zagnieżdżone elementy '<nazwa>' oraz '<cena>' za pomocą '.find()'.
+Za pomocą '.text' odczytałam ich wartości tekstowe, a metodą '.get("id") pobrałam wartość atrybutu 'id'.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- wczytać plik XML i pobrać jego 'root'
+- przejść pętlą po elementach XML
+- znaleźć zagnieżdżony element za pomocą '.find()'
+- pobrać tekst elementu za pomocą '.text'
+- pobrać wartość atrybutu za pomocą '.get()'
+- wyświetlić kilka informacji o rekordzie XML jednocześnie
+
+### Co było dla mnie trudne?
+Muszę utrwalić różnicę między elementem XML a wartością, którą z niego odczytuję.
+'.find("nazwa")' zwraca element XML, dlatego do pobrania wartości potrzebuję '.text'.
+Natomiast '.get("id")' zwraca już wartość atrybutu, dlatego nie używam przy niej '.text'.
+
+### Najważniejsze wnioski
+Przy odczytywaniu danych XML warto pamiętać:
+- '.find("nazwa") -> znajduje element XML
+- '.text' -> pobiera tekst znajdujący się wewnątrz elementu
+- '.get("id") -> pobiera wartość atrybutu
+
+Łącząc te operacje z pętlą 'for', mogę odczytywać kolejne rekordy zapisane w pliku XML.
