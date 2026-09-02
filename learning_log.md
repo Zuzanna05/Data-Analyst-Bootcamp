@@ -735,3 +735,42 @@ Przy odczytywaniu danych XML warto pamiętać:
 - '.get("id") -> pobiera wartość atrybutu
 
 Łącząc te operacje z pętlą 'for', mogę odczytywać kolejne rekordy zapisane w pliku XML.
+
+
+## Dzień 23 - XML: konwersja danych do struktur Pythona
+
+### Czego się nauczyłam?
+- przekształcać dane odczytane z XML do słownika Pythona
+- tworzyć słownik za pomocą par 'klucz: wartość'
+- tworzyć pustą listę za pomocą '[]'
+- dodawać słowniki do listy za pomocą '.append()'
+- tworzyć listę słowników na podstawie kolejnych elementów XML
+- łączyć '.get()', '.find()', '.text', pętlę 'for' i '.append()'
+
+### Ćwiczenia
+Wczytałam dane z pliku 'produkty.xml' i odczytałam informacje o kolejnych produktach.
+Dla każdego produktu utworzyłam słownik zawierający 'id', 'nazwa' oraz 'cena', a następnie dodałam słownik do listy za pomocą '.append()'.
+W mini challenge przećwiczyłam ten sam mechanizm na przykładzie danych klientów.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię:
+- pobrać wartość atrybuty XML za pomocą '.get()'
+- pobrać tekst elementu za pomocą '.find()' i '.text'
+- zapisać odczytane dane w słowniku
+- utworzyć pustą listę
+- dodawać kolejne słowniki do listy
+- przekształcić wiele rekordów XML w listę słowników
+
+### Co było dla mnie trudne?
+Muszę utrwalić moment, w którym używam '.text'.
+Jeżeli zapiszę:
+'imie = klient.find("imie").text'
+to zmienna 'imie' zawiera już wartość tekstową, dlatego później używam po prostu 'imie.text'.
+Muszę również pamiętać, że pusta lista jest tworzona za pomocą '[]', natomiast 
+'()' oznacza krotkę ('tuple').
+
+### Najważniejsze wnioski
+Dane z XML można przekształcić do struktur Pythona krok po kroku:
+XML -> odczyt wartości -> słownik -> lista słowników
+Dla każdego elementu XML mogę utworzyć osobny słownik, a następnie dodać go do wspólnej listy za pomocą '.append()'.
+Lista słowników jest wygodną strukturą danych, którą w kolejnym kroku można wykorzystać do utworzenia DataFrame w Pandas.

@@ -31,3 +31,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 20 - XML: podstawowa struktura, elementy, atrybuty i wartości tekstowe
 - Dzień 21 - XML: odczyt pliku za pomocą ElementTree, getroot(), tag i pętla for
 - Dzień 22 - XML: odczytywanie elementów, wartości i atrybutów za pomocą find(), text i get()
+- Dzień 23 - XML: konwersja danych do słowników i list Pythona
