@@ -774,3 +774,28 @@ Dane z XML można przekształcić do struktur Pythona krok po kroku:
 XML -> odczyt wartości -> słownik -> lista słowników
 Dla każdego elementu XML mogę utworzyć osobny słownik, a następnie dodać go do wspólnej listy za pomocą '.append()'.
 Lista słowników jest wygodną strukturą danych, którą w kolejnym kroku można wykorzystać do utworzenia DataFrame w Pandas.
+
+
+## Dzień 24 - XML: konwersja danych do Pandas DataFrame
+
+### Czego się nauczyłam?
+- tworzyć DataFrame na podstawie listy słowników
+- używać 'pd.DataFrame()'
+- rozróżniać zwykłe przypisanie zmiennej od utworzenia DataFrame
+
+### Ćwiczenia
+Utworzyłam listę słowników zawierającą dane produktów, a następnie przekształciłam ją w DataFrame za pomocą Pandas.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię przekształcić listę słowników w DataFrame:
+'df_produkty = pd.DataFrame(lista_produktow)'
+
+### Co było dla mnie trudne?
+Muszę pamiętać, że:
+'df_produkty = lista_produktow'
+nie tworzy DataFrame, a jedynie przypisuje istniejącą listę do kolejnej zmiennej.
+
+### Najważniejsze wnioski
+'pd.DataFrame()' pozwala przekształcić struktury Pythona, takie jak lista słowników, w tabelaryczną strukturę danych Pandas.
+Pozwala to przejść kolejnymi etapami:
+XML -> słowniki -> lista słowników -> DataFrame
