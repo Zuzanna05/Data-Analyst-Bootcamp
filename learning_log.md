@@ -799,3 +799,25 @@ nie tworzy DataFrame, a jedynie przypisuje istniejącą listę do kolejnej zmien
 'pd.DataFrame()' pozwala przekształcić struktury Pythona, takie jak lista słowników, w tabelaryczną strukturę danych Pandas.
 Pozwala to przejść kolejnymi etapami:
 XML -> słowniki -> lista słowników -> DataFrame
+
+
+## Dzień 25 - XML i Pandas: typy danych
+
+### Czego się nauczyłam?
+- sprawdzać typy danych w DataFrame za pomocą '.info()'
+- rozpoznawać kolumny tekstowe i liczbowe
+- konwertować kolumnę za pomocą '.astype(float)'
+- rozumieć różnicę między identyfikatorem a wartością wykorzystywaną w obliczeniach
+- wykonywać obliczenia na danych po poprawnej konwersji typu
+
+### Ćwiczenia
+Utworzyłam DataFrame na podstawie listy słowników przygotowanej z danych XML. Sprawdziłam typy kolumn i zauważyłam, że 'cena' była przechowywana jako tekst ('str'). Następnie przekonwertowałam ją na 'float' i obliczyłam średnią cenę produktów.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię sprawdzić typy danych za pomocą '.info()', zmienić typ kolumny przy użyciu '.astype()' oraz wykorzystać przekonwertowane dane do prostych obliczeń.
+
+### Co było dla mnie trudne?
+Trzeba pamiętać, że wartość wyglądająca jak liczba może być przechowywana jako tekst. Sam wygląd danych nie wystarcza - należy sprawdzić ich typ.
+
+### Najważniejsze wnioski
+Przed rozpoczęciem analizy warto sprawdzić typy danych. Kolumny wykorzystywane w obliczeniach powinny mieć odpowiedni typ liczbowy, natomiast identyfikatory nie muszą być konwertowane na liczby tylko dlatego, że składają się z cyfr.
