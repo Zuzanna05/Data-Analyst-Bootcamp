@@ -821,3 +821,24 @@ Trzeba pamiętać, że wartość wyglądająca jak liczba może być przechowywa
 
 ### Najważniejsze wnioski
 Przed rozpoczęciem analizy warto sprawdzić typy danych. Kolumny wykorzystywane w obliczeniach powinny mieć odpowiedni typ liczbowy, natomiast identyfikatory nie muszą być konwertowane na liczby tylko dlatego, że składają się z cyfr.
+
+
+## Dzień 26 - XML i Pandas: eksport danych do CSV
+
+### Czego się nauczyłam?
+- eksportować DataFrame do pliku CSV za pomocą '.to_csv()'
+- używać parametru 'index=False'
+- ponownie wczytywać zapisany plik CSV za pomocą 'pd.read_csv()'
+- sprawdzać poprawność danych po eksporcie i ponownym odczycie
+
+### Ćwiczenia
+Przygotowałam DataFrame z listy słowników, przekonwertowałam kolumnę 'cena' na typ 'float', a następnie zapisałam dane do pliku 'produkty_z_xml.csv'. Na końcu ponownie wczytałam plik do Pandas i porównałam dane z oryginalnym DataFrame.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię zapisać DataFrame do CSV za pomocą '.to_csv()' oraz wczytać plik CSV do DataFrame za pomocą 'pd.read_csv()'.
+
+### Co było dla mnie trudne?
+Muszę pamiętać o różnicy między metodami zapisu i odczytu danych. '.to_csv()' zapisuje DataFrame do pliku, natomiast 'pd.read_csv()' wczytuje plik CSV do DataFrame.
+
+### Najważniejsze wnioski
+Parametr 'index=False' zapobiega zapisaniu indeksu DataFrame jako dodatkowej kolumny w pliku CSV. Po eksporcie warto ponownie wczytać plik i sprawdzić, czy dane zostały zapisane poprawnie.
