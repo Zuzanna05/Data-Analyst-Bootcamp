@@ -35,3 +35,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 24 - XML i Pandas: konwersja listy słowników do DataFrame
 - Dzień 25 - XML i Pandas: kontrola i konwersja typów danych w DataFrame
 - Dzień 26 - XML i Pandas: eksport DataFrame do CSV i kontrola zapisanych danych
+- Dzień 27 - CSV i Pandas: konwersja DataFrame do listy słowników

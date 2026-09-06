@@ -842,3 +842,25 @@ Muszę pamiętać o różnicy między metodami zapisu i odczytu danych. '.to_csv
 
 ### Najważniejsze wnioski
 Parametr 'index=False' zapobiega zapisaniu indeksu DataFrame jako dodatkowej kolumny w pliku CSV. Po eksporcie warto ponownie wczytać plik i sprawdzić, czy dane zostały zapisane poprawnie.
+
+
+## Dzień 27 - CSV i Pandas: konwersja danych do struktur Pythona
+
+### Czego się nauczyłam?
+- wczytywać plik CSV do DataFrame za pomocą 'pd.read_csv()'
+- konwertować DataFrame do listy słowników za pomocą '.to_dict(orient="records")'
+- rozumieć, że każdy wiersz DataFrame może zostać zamieniony na osobny słownik
+- odczytywać konkretny rekord z listy słowników
+- odczytywać konkretną wartość ze słownika
+
+### Ćwiczenia
+Wczytałam plik 'produkty_z_xml.csv' do DataFrame, a następnie przekonwertowałam dane do listy słowników. Sprawdziłam pierwszy rekord oraz odczytałam konkretną wartość z wybranego słownika.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię przejść z pliku CSV do DataFrame, a następnie z DataFrame do listy słowników za pomocą 'to_dict(orient="records")'.
+
+### Co było dla mnie trudne?
+Muszę pamiętać o różnicy między indeksem listy a kluczem słownika. 'lista_produktow[0]' zwraca cały pierwszy słownik, a 'lista_produktow[0]["nazwa"]' zwraca konkretną wartość z tego słownika.
+
+### Najważniejsze wnioski
+'orient="records"' pozwala zamienić każdy wiersz DataFrame na osobny słownik. Taka struktura jest wygodna do dalszego przetwarzania danych, np. przy tworzeniu XML.
