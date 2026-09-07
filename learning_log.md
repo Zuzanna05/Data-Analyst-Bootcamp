@@ -864,3 +864,16 @@ Muszę pamiętać o różnicy między indeksem listy a kluczem słownika. 'lista
 
 ### Najważniejsze wnioski
 'orient="records"' pozwala zamienić każdy wiersz DataFrame na osobny słownik. Taka struktura jest wygodna do dalszego przetwarzania danych, np. przy tworzeniu XML.
+
+
+## Dzień 28 - XML: tworzenie elementu w Pythonie
+
+### Czego się nauczyłam?
+- tworzyć element XML za pomocą 'ET.Element()'
+- rozumieć, że argument 'ET.Element()' określa nazwę tworzonego elementu
+
+### Ćwiczenia
+Utworzyłam główny element XML '<produkty>' i sprawdziłam jego nazwę za pomocą '.tag'.
+
+### Najważniejsze wnioski
+'ET.Element("produkty")' tworzy element XML '<produkty>'.
