@@ -877,3 +877,24 @@ Utworzyłam główny element XML '<produkty>' i sprawdziłam jego nazwę za pomo
 
 ### Najważniejsze wnioski
 'ET.Element("produkty")' tworzy element XML '<produkty>'.
+
+
+## Dzień 29 - XML: tworzenie elementów zagnieżdżonych
+
+### Czego sie nauczyłam?
+- tworzyć element potomny XML za pomocą 'ET.SubElement()'
+- rozumieć relację parent-child w strukturze XML
+- tworzyć zagnieżdżone elementy, takie jak '<produkt>', '<nazwa>' i '<cena>'
+- przypisywac wartości tekstowe do elementów XML za pomocą '.text'
+
+### Ćwiczenia
+Utworzyłam strukturę XML zawierającą element główny '<produkty>', wewnętrzny element '<produkt>' oraz elementy '<nazwa>' i '<cena>'. Następnie przypisałam im wartości tekstowe.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię utworzyć element główny XML, dodać do niego elementy potomne za pomocą 'ET.SubElement()' oraz ustawić ich wartości przy użyciu '.text'.
+
+### Co było dla mnie trudne?
+Muszę uważać, do której zmiennej przypisuję '.text', ponieważ każda zmienna reprezentuje konkretny element XML.
+
+### Najważniejsze wnioski
+'ET.SubElement(parent, "nazwa")' tworzy nowy element wewnątrz wskazanego rodzica, a '.text' służy do ustawienia jego zawartości tekstowej.

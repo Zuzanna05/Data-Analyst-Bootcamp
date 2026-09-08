@@ -37,3 +37,5 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 26 - XML i Pandas: eksport DataFrame do CSV i kontrola zapisanych danych
 - Dzień 27 - CSV i Pandas: konwersja DataFrame do listy słowników
 - Dzień 28 - XML: tworzenie elementów za pomocą ET.Element()
+- Dzień 29 - XML: tworzenie elementów zagnieżdżonych za pomocą 
+ET.SubElement() i .text
