@@ -898,3 +898,25 @@ Muszę uważać, do której zmiennej przypisuję '.text', ponieważ każda zmien
 
 ### Najważniejsze wnioski
 'ET.SubElement(parent, "nazwa")' tworzy nowy element wewnątrz wskazanego rodzica, a '.text' służy do ustawienia jego zawartości tekstowej.
+
+
+## Dzień 30 - XML: tworzenie elementów na podstawie danych Pythona
+
+### Czego się nauczyłam?
+- wykorzystywać słownik Pythona jako źródło danych dla XML
+- pobierać wartości ze słownika za pomocą kluczy
+- przypisywać dane ze słownika do '.text'
+- konwertować wartości liczbowe na tekst za pomocą 'str()'
+
+### Ćwiczenia
+Utworzyłam strukturę XML dla jednego produktu. Wartości 'nazwa' i 'cena' zostały pobrane ze słownika zamiast wpisywania ich bezpośrednio w kodzie.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię utworzyć elementy XML za pomocą 'ET.Element()' i 'ET.SubElement()' oraz przypisywać im wartości pochodzące ze słownika Pythona.
+
+### Co było dla mnie trudne?
+Muszę pamiętać, że podczas odczytu wartości ze słownika w nawiasach 
+'[]' podaję klucz, np. 'dane_produktu["nazwa"], a nie wartość '"Laptop"'.
+
+### Najważniejsze wnioski
+Dane tekstowe można bezpośrednio przypisać do '.text', natomiast wartości liczbowe należy wcześniej przekonwertować na tekst za pomocą 'str()'.
