@@ -920,3 +920,24 @@ Muszę pamiętać, że podczas odczytu wartości ze słownika w nawiasach
 
 ### Najważniejsze wnioski
 Dane tekstowe można bezpośrednio przypisać do '.text', natomiast wartości liczbowe należy wcześniej przekonwertować na tekst za pomocą 'str()'.
+
+
+## Dzień 31 - XML: tworzenie atrybutów na podstawie danych Pythona
+
+### Czego się nauczyłam?
+- dodawać atrybuty XML za pomocą '.set()'
+- wykorzystywać dane ze słownika jakko wartości atrybutów
+- rozróżniać nazwę atrybutu XML od klucza w słowniku
+- konwertować wartości typu 'int' na 'str' przed zapisaniem ich w XML
+
+### Ćwiczenia
+Utworzyłam element '<produkt>' i dodałam do niego atrybut 'id', którego wartość została pobrana ze słownika 'dane_produktu'.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię dodać atrybut do elementu XML za pomocą '.set()' oraz przypisać mu wartość pochodzącą ze słownika Pythona.
+
+### Co było dla mnie trudne?
+Muszę pamiętać, ż epierwsza wartość w '.set()' oznacza nazwę atrybutu XML, a klucz w 'dane_produktu["id"]' służy do pobrania konkretnej wartości ze słownika.
+
+### Najważniejsze wnioski
+'produkt.set("id", str(dane_produktu["id"]))' tworzy atrybut 'id' i przypisuje mu wartość pobraną ze słownika. Wartości liczbowe trzeba wcześniej zamienić na tekst.

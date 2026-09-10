@@ -40,3 +40,4 @@ Repozytorium dokumentujące moją naukę i rozwój umiejętności potrzebnych w 
 - Dzień 29 - XML: tworzenie elementów zagnieżdżonych za pomocą 
 ET.SubElement() i .text
 - Dzień 30 - XML: tworzenie elementów na podstawie danych ze słownika Pythona
+- Dzień 31 - XML: tworzenie atrybutów za pomocą .set() i danych ze słownika
