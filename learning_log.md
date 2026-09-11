@@ -941,3 +941,29 @@ Muszę pamiętać, ż epierwsza wartość w '.set()' oznacza nazwę atrybutu XML
 
 ### Najważniejsze wnioski
 'produkt.set("id", str(dane_produktu["id"]))' tworzy atrybut 'id' i przypisuje mu wartość pobraną ze słownika. Wartości liczbowe trzeba wcześniej zamienić na tekst.
+
+
+## Dzień 32 - XML: tworzenie wielu elementów za pomocą pętli
+
+### Czego się nauczyłam?
+- iterować po liście słowników za pomocą pętli 'for'
+- traktować każdy słownik jako jeden produkt
+- tworzyć wiele elementów '<produkt>' w jednej pętli
+- pobierać z aktualnego słownika wartości 'id', 'nazwa' i 'cena'
+- łączyć 'ET.SubElement()', '.set()' i '.text'
+
+### Ćwiczenia
+Na podstawie 'lista_produktow' utworzyłam strukturę XML zawierającą trzy produkty.
+Każdy produkt otrzymał:
+- atrybut 'id'
+- element '<nazwa>'
+- element '<cena>'
+
+### Co potrafię zrobić samodzielnie?
+Potrafię przejść pętlą po liście słowników i na podstawie każdego słownika utworzyć osobny element XML.
+
+### Co było dla mnie trudne?
+Musiałam zwrócić uwagę na to, że kod tworzący elementy XML musi znajdować się wewnątrz pętli, aby wykonał się osobno dla każdego produktu.
+
+### Najważniejsze wnioski
+Zmienna 'produkt' w każdym obrocie pętli reprezentuje inny słownik z listy, dzięki czemu ten sam kod może automatycznie utworzyć wiele elementów XML.
