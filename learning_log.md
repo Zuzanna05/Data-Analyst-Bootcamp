@@ -967,3 +967,27 @@ Musiałam zwrócić uwagę na to, że kod tworzący elementy XML musi znajdować
 
 ### Najważniejsze wnioski
 Zmienna 'produkt' w każdym obrocie pętli reprezentuje inny słownik z listy, dzięki czemu ten sam kod może automatycznie utworzyć wiele elementów XML.
+
+
+## Dzień 33 - XML: zapis danych do pliku
+
+### Czego się nauczyłam?
+- tworzyć obiekt 'ElementTree' na podstawie głównego elementu 'root'
+- zapisywać utworzoną strukturę XML do pliku za pomocą '.write()'
+- określać ścieżkę i nazwę pliku wyjściowego
+- używać kodowania UTF-8
+- dodawać deklarację XML za pomocą 'xml_declaration=True'
+
+### Ćwiczenia
+Na podstawie listy słowników utworzyłam strukturę XML zawierającą trzy produkty, a następnie zapisałam ją do pliku 'produkty_wygenerowane.xml'.
+
+### Co potrafię zrobić samodzielnie?
+Potrafię utworzyć drzewo XML za pomocą 
+'ET.ElementTree(root)' i zapisać je do pliku za pomocą 'tree.write()'.
+
+### Co było dla mnie trudne?
+Musiałam zwrócić uwagę na poprawną ścieżkę zapisu pliku oraz na relację między 'root', elementami '<produkt>' i ich elementami potomnymi.
+
+### Najważniejsze wnioski
+'ET.ElementTree(root)' tworzy całe drzewo XML, a 
+'tree.write()' pozwala zapisać je jako rzeczywisty plik '.xml' na dysku.
