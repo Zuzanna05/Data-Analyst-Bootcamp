@@ -991,3 +991,15 @@ Musiałam zwrócić uwagę na poprawną ścieżkę zapisu pliku oraz na relację
 ### Najważniejsze wnioski
 'ET.ElementTree(root)' tworzy całe drzewo XML, a 
 'tree.write()' pozwala zapisać je jako rzeczywisty plik '.xml' na dysku.
+
+
+## Dzień 34 - CSV -> XML: przygotowanie danych
+
+### Czego się nauczyłam?
+- wczytywać dane CSV za pomocą 'pd.read_csv()'
+- konwertować DataFrame do listy słowników za pomocą 
+'.to_dict(orient="records")'
+- rozumieć, że każdy element takiej listy reprezentuje jeden rekord
+
+### Najważniejszy wniosek
+'orient="records" zamienia każdy wiersz DataFrame na osobny słownik, przygotowując dane do dalszej konwersji na XML.

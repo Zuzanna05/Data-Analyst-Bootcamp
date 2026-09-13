@@ -43,3 +43,4 @@ ET.SubElement() i .text
 - Dzień 31 - XML: tworzenie atrybutów za pomocą .set() i danych ze słownika
 - Dzień 32 - XML: tworzenie wielu elementów na podstawie listy słowników i pętli for
 - Dzień 33 - XML: tworzenie ElementTree i zapis danych do pliku XML
+- Dzień 34 - CSV -> XML: przygotowanie danych i konwersja DataFrame do listy słowników
