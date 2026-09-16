@@ -1003,3 +1003,7 @@ Musiałam zwrócić uwagę na poprawną ścieżkę zapisu pliku oraz na relację
 
 ### Najważniejszy wniosek
 'orient="records" zamienia każdy wiersz DataFrame na osobny słownik, przygotowując dane do dalszej konwersji na XML.
+
+### Dzień 37 - Utrwalenie pipeline
+
+`DataFrame.to_dict(orient="records")` pozwala przygotować dane z CSV jako listę słowników, którą następnie można wykorzystać do tworzenia elementów XML.
