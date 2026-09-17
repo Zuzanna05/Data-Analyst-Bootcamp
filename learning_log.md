@@ -1007,3 +1007,7 @@ Musiałam zwrócić uwagę na poprawną ścieżkę zapisu pliku oraz na relację
 ### Dzień 37 - Utrwalenie pipeline
 
 `DataFrame.to_dict(orient="records")` pozwala przygotować dane z CSV jako listę słowników, którą następnie można wykorzystać do tworzenia elementów XML.
+
+### Dzień 38 - Utrwalenie konwersji danych
+
+Pipeline łączy poznane wcześniej operacje: odczyt CSV -> DataFrame -> lista słowników -> tworzenie struktury XML -> zapis do pliku XML.
